@@ -1,5 +1,9 @@
+$(".nav-btn").click(function(){
+    $(".mb-nav").fadeToggle().show();
+});
+
 $(window).resize(function(){ 
-    if (window.innerWidth > 769) {  // 다바이스 크기가 480이상일때 
+    if (window.innerWidth > 769) {
     
         const tabItem = document.querySelectorAll('.tab-item')
         const tabInner = document.querySelectorAll('.tab-inner')
@@ -90,13 +94,11 @@ var swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     }
 });
-
+// 팝업
 function openModal(modalname) {
     document.get
     $("." + modalname).css("display", "block");
 }
-
-// 팝업 닫기
 $('.close-btn').click(function() {
     $(".modal").css("display", "none");
 });
@@ -107,3 +109,4 @@ $(document).mouseup(function (e){
       LayerPopup.css("display", "none");
     }
   });
+

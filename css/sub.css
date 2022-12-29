@@ -304,7 +304,11 @@
 .select{
     display: none;
 }
-
+@media all and (max-width : 1024px){
+    .cont-list.forum-list{
+        padding-top: 21px;
+    }
+}
 @media all and (max-width : 768px){
     .top-desc{
         display: none;

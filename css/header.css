@@ -64,6 +64,30 @@ nav > ul > li > a:hover::before {
     transform: scale(1, 1)
 }
 
+.mb-nav{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #005bac;
+}
+.mb-nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 71px;
+    font-family: var(--fn-sans);
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1.4px;
+}
+.mb-nav-list > li:nth-of-type(-n + 6){ 
+    margin-bottom: 41px;
+}
+
 @media all and (max-width : 1170px){
     .h-inner{
         padding-left: 20px;
