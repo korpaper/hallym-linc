@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8932d9ee39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/css/common.css" type="text/css">
+    <link rel="stylesheet" href="/css/header.css" type="text/css">
+    <link rel="stylesheet" href="/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="/css/sub.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="h-inner">
+            <h1>
+                <a href="index.html">
+                    <img src="/img/logo.webp" alt="로고">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="capston.html">캡스톤디자인</a></li>
+                    <li><a href="club.html">창업동아리</a></li>
+                    <li><a href="forum.html">국제지역혁신포럼</a></li>
+                    <li><a href="contest.html">현장실습 우수수기 공모전</a></li>
+                    <li><a href="cont.html">산학연계 교육콘텐츠</a></li>
+                    <li><a href="icc.html">산업체 협업센터 ICC관</a></li>
+                    <li><a href="rcc-main.html">지역사회 특화센터 RCC관</a></li>
+                </ul>
+            </nav>
+            <aside>
+                <button>
+                    <img src="/img/Icon feather-menu.webp" alt="메뉴">
+                </button>
+            </aside>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-top">
+            <div class="top-txt">
+                <p class="top-tit">캡스톤디자인경진대회</p>
+                <p class="top-desc">
+                    캡스톤디자인이란 1~2학년 동안 배운 전공 교과목 및 이론 등을 바탕으로,<br>
+                    산업체(또는 사회)가 필요로 하는 과제를 대상으로 3학년 이상 학생들이 스스로 기획과 종합적인 문제해결을 통해<br>
+                    창의성과 실무능력, 팀워크, 리더십을 배양하도록 지원하는 정규교과목입니다
+                </p>
+                <p class="mb-top-desc">
+                    캡스톤디자인이란 1~2학년 동안 배운 전공 교과목 및 이론 등을 바탕으로,
+                    산업체(또는 사회)가 필요로 하는 과제를 대상으로 3학년 이상 학생들이 스스로 기획과 종합적인 문제해결을 통해
+                    창의성과 실무능력, 팀워크, 리더십을 배양하도록 지원하는 정규교과목입니다
+                </p>
+            </div>
+        </div>
+        <div class="tab-menu">
+            <div class="tab-menu-wrap">
+                <div class="manu">
+                    <ul class="tab" id="">
+                        <li class="tab-item active">
+                            <label class="tab-tit"><input type="radio" name="cp_item" value="옵션1" checked="checked"><span>2020년도 1학기</span></label>
+                        </li>
+                        <li class="tab-item">
+                            <label class="tab-tit"><input type="radio" name="cp_item" value="옵션2"><span>2020년도 2학기</span></label>
+                        </li>
+                        <li class="tab-item">
+                            <label class="tab-tit"><input type="radio" name="cp_item" value="옵션2"><span>2021년도 1학기</span></label>
+                        </li>
+                        <li class="tab-item">
+                            <label class="tab-tit"><input type="radio" name="cp_item" value="옵션2"><span>2021년도 2학기</span></label>
+                        </li>
+                        <li class="tab-item">
+                            <label class="tab-tit"><input type="radio" name="cp_item" value="옵션2"><span>2022년도 1학기</span></label>
+                        </li>
+                    </ul>
+                    <div class="select">
+                        <select name="" id="tabmenu" class="select-tab">
+                            <option value="#tab01" selected="selected">2020년도 1학기</option>
+                            <option value="#tab02">2020년도 2학기</option>
+                            <option value="#tab03">2021년도 1학기</option>
+                            <option value="#tab04">2021년도 2학기</option>
+                            <option value="#tab05">2022년도 1학기</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-inner-wrap">
+                <div class="tab-inner active tab-contents" id="tab01">
+                    <ul class="cont-list">
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps01.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">古轉마불</span>
+                                    <span class="cont-tit02">고전문학전파론</span>
+                                    <p>모두의문학</p>
+                                </div>
+                                <p class="prize third">동상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps02.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">낭만로드</span>
+                                    <span class="cont-tit02">문화관광정책개발</span>
+                                    <p>‘로맨틱 춘천’ 청년 커피문화거리 “낭만로드” 조성</p>
+                                </div>
+                                <p class="prize third">동상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps03.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">윤슬</span>
+                                    <span class="cont-tit02">사회혁신벤처링</span>
+                                    <p>지역청소년의 진로와 행복을 위한 프로그램을 운영하는 문화교육 소셜벤처 창업</p>
+                                </div>
+                                <p class="prize second">은상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps04.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">달봄</span>
+                                    <span class="cont-tit02">사회혁신벤처링</span>
+                                    <p>달봄: 정신건강 관리의 일상화를 위한 프로그램과 상품 제작</p>
+                                </div>
+                                <p class="prize first">금상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps05.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">ECO조</span>
+                                    <span class="cont-tit02">관광경영론(종합설계)</span>
+                                    <p>Recycling is a Game</p>
+                                </div>
+                                <p class="prize third">동상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps06.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">마이 펫 닥터</span>
+                                    <span class="cont-tit02">경영정보시스템(종합설계)</span>
+                                    <p>정보기술IT/정보시스템IS을 활용한 새로운 가치 창출 계획-사업/창업</p>
+                                </div>
+                                <p class="prize third">동상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps07.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">콩닭콩닭</span>
+                                    <span class="cont-tit02">경영전략(종합설계)</span>
+                                    <p>6차산업을 활용한 콩고기닭갈비와 곤드레나물 도시락</p>
+                                </div>
+                                <p class="prize first">대상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps08.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">혹시(HOXY)</span>
+                                    <span class="cont-tit02">레저산업론(종합설계)</span>
+                                    <p>분실자와 습득자를 연결해주는 분실물 찾기 통합 애플리케이션</p>
+                                </div>
+                                <p class="prize second">은상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps09.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">미리봐조</span>
+                                    <span class="cont-tit02">융합산업경영(종합설계)</span>
+                                    <p>어플을 통해 색조 화장품 미리 체험해보기</p>
+                                </div>
+                                <p class="prize second">은상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps10.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">못나도 맛만 좋죠</span>
+                                    <span class="cont-tit02">캡스톤디자인</span>
+                                    <p>못난이 과일 유통 플랫폼</p>
+                                </div>
+                                <p class="prize first">금상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps11.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">유家</span>
+                                    <span class="cont-tit02">신재생에너지공학(종합설계)</span>
+                                    <p>우리집에서 사료 먹고갈래?-재생에너지를 이용한 반려견 집 개발</p>
+                                </div>
+                                <p class="prize first">금상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps12.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">쓰레쉬</span>
+                                    <span class="cont-tit02">신재생에너지공학(종합설계)</span>
+                                    <p>태양광을 이용한 쓰레기통 관리 시스템</p>
+                                </div>
+                                <p class="prize second">은상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps13.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">1516팀</span>
+                                    <span class="cont-tit02">전기기기및설비(종합설계)</span>
+                                    <p>무선통신을 이용한 스마트 쓰레기통</p>
+                                </div>
+                                <p class="prize first">금상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps14.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">ENCD</span>
+                                    <span class="cont-tit02">전기기기및설비(종합설계)</span>
+                                    <p>전기 사용량을 시각화한 LED 콘센트</p>
+                                </div>
+                                <p class="prize second">은상</p>
+                            </div>
+                        </li>
+                        <li class="lists__item">
+                            <a href="enter-capston.html"><img src="/img/caps15.webp" alt=""></a>
+                            <div class="cont-box">
+                                <div class="cont-txt">
+                                    <span class="cont-tit01">HE</span>
+                                    <span class="cont-tit02">캡스톤디자인</span>
+                                    <p>쇠뜨기 추출물을 이용한 기초 화장품(토너)샘플 구성 및</p>
+                                </div>
+                                <p class="prize third">동상</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="load-wrap">
+                        <button class="load">+ 더보기</button>
+                    </div>
+                </div>
+                <div class="tab-inner tab-contents" id="tab02"></div>
+                <div class="tab-inner tab-contents" id="tab03">
+                    
+                </div>
+                <div class="tab-inner tab-contents" id="tab04"></div>
+                <div class="tab-inner tab-contents" id="tab05"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="f-inner">
+            <div class="f-top">
+                <div class="notice-wrap">
+                    <p class="fn-tit">NOTICE</p>
+                    <p class="fn-desc">이용자분들께 안내해 드립니다<br>
+                        한림대학교 온라인 플랫폼은 Microsoft사의<br>
+                        구버전 익스플로러(IE) 브라우저를 지원해드리지 못하므로, 오른쪽 브라우저를 이용해주세요.
+                    </p>
+                </div>
+                <div class="f-brow">
+                    <ul class="brow-list">
+                        <li>
+                            <a href="https://support.apple.com/ko_KR/downloads/safari"><img src="/img/f01.webp" alt="사파리"></a>
+                            <span>사파리</span>
+                        </li>
+                        <li>
+                            <a href="https://www.mozilla.org/ko/firefox/new/"><img src="/img/f02.webp" alt="파이어폭스"></a>
+                            <span>파이어폭스</span>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/intl/ko/chrome/"><img src="/img/f03.webp" alt="크롬"></a>
+                            <span>크롬</span>
+                        </li>
+                        <li>
+                            <a href="https://whale.naver.com/ko/"><img src="/img/f04.webp" alt="웨일"></a>
+                            <span>웨일</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-bottom">
+                <div class="f-bottom01">
+                    <div class="link-wrap">
+                        <a href="https://www.hallym.ac.kr/hallym_univ/" target="_blank">한림대학교</a>
+                        <a href="https://lincplus.hallym.ac.kr:60444/" target="_blank">LINC+ 사업단</a>
+                    </div>
+                </div>
+                <div class="f-bottom02">
+                    <div class="add">
+                        <ul>
+                            <li>주소 | (24252)강원도 춘천시 한림대학길 1</li>
+                            <li>대표번호 | 033-248-3394</li>
+                            <li>팩스 | 033-248-3300</li>
+                        </ul>
+                        <p class="copy">
+                            COPYRIGHT© 2016 HALLYM UNIVERSITY. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/js/script.js"></script>
+</html>
